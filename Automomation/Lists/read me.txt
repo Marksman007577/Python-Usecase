@@ -1,0 +1,125 @@
+**The List Data Type**
+A list is a value that contains multiple values in an ordered sequence
+
+The term list value refers to the list itself (which is a value that can
+be stored in a variable or passed to a function like any other value), not
+the values inside the list value.
+
+A list value looks like this: ['cat', 'bat', 'rat', 'elephant'].
+
+Values inside the list are also called items. Items are separated with commas (that is, they are comma-delimited).
+
+
+**Getting Individual Values in a List with Indexes**
+Say you have the list ['cat', 'bat', 'rat', 'elephant'] stored in a variable named spam.
+
+The Python code spam[0] would evaluate to 'cat', and spam[1] would evaluate to 'bat', and so on.
+
+Lists can also contain other list values. The values in these lists of lists can be accessed using multiple indexes
+
+**Negative Indexes
+While indexes start at 0 and go up, you can also use negative integers for the index.
+
+The integer value -1 refers to the last index in a list, the value -2 refers to the second-to-last
+index in a list, and so on.
+
+**Getting Sublists with Slices**
+a slice can get several values from a list, in the form of a new list.
+
+A slice is typed between square brackets, like an index, but it has two integers separated by a colon.
+spam[2] is a list with an index (one integer).
+spam[1:4] is a list with a slice (two integers).
+
+In a slice, the first integer is the index where the slice starts. The second integer is the index where the
+slice ends. A slice goes up to, but will not include, the value at the second index. A slice evaluates to a
+new list value.
+
+As a shortcut, you can leave out one or both of the indexes on either side of the colon in the slice.
+Leaving out the first index is the same as using 0, or the beginning of the list. Leaving out the second
+index is the same as using the length of the list, which will slice to the end of the list.
+
+**Getting a List’s Length with len()**
+The len() function will return the number of values that are in a list value passed to it, just like it can count the
+number of characters in a string value.
+
+**Changing Values in a List with Indexes**
+you can also use an index of a list to change the value at that index. For example, spam[1] = 'aardvark' means
+“Assign the value at index 1 in the list spam to the string 'aardvark'.”
+
+**List Concatenation and List Replication**
+The + operator can combine two lists to create a new list value in the same way it combines two strings into a new
+string value.
+
+The * operator can also be used with a list and an integer value to replicate the list
+
+**Removing Values from Lists with del Statements**
+The del statement will delete values at an index in a list. All the values in the list after the deleted value
+will be moved up one index.
+
+In practice, you almost never need to delete simple variables. The del statement is mostly used to delete values from
+lists.
+
+The benefit of using a list is that your data is now in a structure, so your program is much more flexible in processing
+the data than it would be with several repetitive variables.
+
+**Using for Loops with Lists**
+A common Python technique is to use range(len(someList)) with a for loop to iterate over the indexes of a list.
+
+**The in and not in Operators**
+in and not in are used in expressions and connect two values: a value to look for in a list and the list where it may be
+found. These expressions will evaluate to a Boolean value.
+
+**The Multiple Assignment Trick**
+The multiple assignment trick is a shortcut that lets you assign multiple variables with the values in a list in one
+line of code. So instead of doing this:
+
+cat = ['fat', 'black', 'loud']
+size = cat[0]
+color = cat[1]
+disposition = cat[2]
+
+you could type this line of code:
+cat = ['fat', 'black', 'loud']
+size, color, disposition = cat
+
+**Augmented Assignment Operators**
+Augmented assignment statement                         Equivalent assignment statement
+spam = spam + 1                                        spam += 1
+spam = spam - 1                                        spam -= 1
+spam = spam * 1                                        spam *= 1
+spam = spam / 1                                        spam /= 1
+spam = spam % 1                                        spam %= 1
+
+**Methods**
+To find the value position in a list: index()
+spam = ['hello', 'hi', 'howdy', 'heyas']
+spam.index('hello')
+0
+
+To add values to a list: append() and insert()
+append() method call adds the argument to the end of the list.
+insert() method can insert a value at any index in the list.
+
+To removing Values from Lists: remove()
+To sort the Values in a List: sort()
+
+**Tuples**
+The tuple data type is almost identical to the list data type, except in two ways. First, tuples are typed
+with parentheses, ( and ), instead of square brackets, [ and ].
+
+But the main way that tuples are different from lists is that tuples, like strings, are immutable.
+Tuples cannot have their values modified, appended, or removed.
+
+If you have only one value in your tuple, you can indicate this by placing a trailing comma after the value inside
+the parentheses. Otherwise, Python will think you’ve just typed a value inside regular parentheses. The comma
+is what lets Python know this is a tuple value.
+
+tuple()
+list()
+
+**The copy Module’s copy() and deepcopy() Functions**
+The first of these, copy.copy(), can be used to make a duplicate copy of a mutable value like a list or dictionary,
+not just a  copy of a reference.
+
+If the list you need to copy contains lists, then use the copy.deepcopy() function instead of copy.copy().
+The deepcopy() function will copy these inner lists as well.

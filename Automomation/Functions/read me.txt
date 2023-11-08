@@ -1,0 +1,68 @@
+**FUNCTIONS**
+A major purpose of functions is to group code that gets executed multiple
+times. Without a function defined, you would have to copy and paste this code each time.
+
+In general, you always want to avoid duplicating code, because if you ever decide to update
+the code—if, for example, you find a bug you need to fix—you’ll have to remember to change the
+code everywhere you copied it.
+
+**def Statements with Parameters**
+When you call the print() or len() function, you pass in values, called arguments in this context,
+by typing them between the parentheses. You can also define your own functions that accept arguments.
+
+A parameter is a variable that an argument is stored in when a function is called.
+
+One special thing to note about parameters is that the value stored in a parameter is forgotten when the
+function returns.
+
+**Return Values and return Statements**
+When you call the len() function and pass it an argument such as 'Hello', the function call evaluates to the
+integer value 5, which is the length of the string you passed it.
+
+In general, the value that a function call evaluates to is called the return value of the function.
+
+When creating a function using the def statement, you can specify what the return value should be with
+a return statement. A return statement consists of the following:
+• The return keyword
+• The value or expression that the function should return
+
+**The None Value**
+In Python there is a value called None, which represents the absence of a value.None is the only value of the
+NoneType data type.
+
+**Keyword Arguments and print()**
+keyword arguments are identified by the keyword put before them in the function call. Keyword arguments are often
+used for optional parameters.
+
+**Local and Global Scope**
+Parameters and variables that are assigned in a called function are said to exist in that function’s local scope.
+
+Variables that are assigned outside all functions are said to exist in the global scope.
+
+A variable that exists in a local scope is called a local variable, while a variable that exists in the global scope
+is called a global variable.
+
+A variable must be one or the other; it cannot be both local and global.
+
+A local scope is created whenever a function is called. Any variables assigned in this function exist within the local
+scope.
+
+When the function returns, the local scope is destroyed, and these variables are forgotten.
+
+The next time you call this function, the local variables will not remember the values stored in them from the last time
+the function was called.
+
+Global Variables Can Be Read from a Local Scope
+
+Local Scopes Cannot Use Variables in Other Local Scopes
+
+**The global Statement**
+If you need to modify a global variable from within a function, use the 'global' statement.
+If you ever want to modify the value stored in a global variable from in a function, you must use a global statement on
+that variable.
+
+**EXCEPTION HANDLING**
+Right now, getting an error, or exception, in your Python program means the entire program will crash. You don’t want
+this to happen in real-world programs. Instead, you want the program to detect errors, handle them, and then continue
+to run.
+

@@ -1,0 +1,3 @@
+Randomization
+Python List
+List comprehension

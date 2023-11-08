@@ -1,0 +1,56 @@
+**Math Operators from Highest to Lowest Precedence**
+Operator     Operation       Example                 Evaluates to…
+**           Exponent         2 ** 3                      8
+%        Modulus/remainder    22 % 8                      6
+//       Integer division     22 // 8                     2
+/            Division         22 / 8                     2.75
+*            Multiplication   3 * 5                       15
+-            Subtraction      5 - 2                       3
++            Addition         2 + 2                       4
+
+
+**The Integer, Floating-Point, and String Data Types**
+Data type                                  Examples
+Integers                                   -2, -1, 0, 1, 2, 3, 4, 5
+Floating-point numbers                     -1.25, -1.0, ‑-0.5, 0.0, 0.5, 1.0, 1.25
+Strings                                    'a', 'aa', 'aaa', 'Hello!', '11 cats'
+
+**String Concatenation and Replication**
+when + is used on two string values, it joins the strings as the string concatenation operator
+when the * operator is used on one string value and one integer value, it becomes the string replication operator
+
+**Storing Values in Variables**
+A variable is like a box in the computer’s memory where you can store a
+single value. If you want to use the result of an evaluated expression later in
+your program, you can save it inside a variable.
+
+A variable is initialized (or created) the first time a value is stored in it.
+After that, you can use it in expressions with other variables and values.
+When a variable is assigned a new value, the old value is forgotten. This is
+called overwriting the variable.
+
+**Variable Names**
+You can name a variable anything as long as it obeys the following three rules:
+1. It can be only one word.
+2. It can use only letters, numbers, and the underscore (_) character.
+3. It can’t begin with a number.
+
+Variable names are case-sensitive, meaning that spam, SPAM, Spam, and sPaM
+are four different variables. It is a Python convention to start your variables
+with a lowercase letter.
+
+**The print() Function**
+The print() function displays the 'string' value inside the parentheses on the screen.
+
+**The input() Function**
+The input() function waits for the user to type some text on the keyboard and press enter.
+
+**The len() Function**
+You can pass the len() function a string value (or a variable containing a string), and the
+function evaluates to the integer value of the number of characters in that string.
+
+**The str(), int(), and float() Functions**
+If you want to concatenate an integer such as 29 with a string to pass to print(), you’ll need to
+get the value '29', which is the string form of 29. The str() function can be passed an integer
+value and will evaluate to a string value version of it.
+
