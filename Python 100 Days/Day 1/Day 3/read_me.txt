@@ -1,3 +1,0 @@
-Control flow
-Logical operators
-Logical statements
