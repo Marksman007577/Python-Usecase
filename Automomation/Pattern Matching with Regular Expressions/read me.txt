@@ -1,0 +1,68 @@
+**Pattern Matching with Regular Expressions**
+You may be familiar with searching for text by pressing ctrl-F and typing in the words you’re looking for.
+Regular expressions go one step further: They allow you to specify a pattern of text to search for.
+
+**Finding Patterns of Text Without Regular Expressions**
+Let’s use a function named isPhoneNumber() to check whether a string matches this pattern, returning either True or
+False.
+
+**Finding patterns of text using regular expression**
+Regular expressions, called regexes for short, are descriptions for a pattern of text.
+For example, a \d in a regex stands for a digit character— that is, any single numeral 0 to 9.
+The regex \d\d\d-\d\d\d-\d\d\d\d is used by Python to match the same text. Any other string would not match the
+\d\d\d-\d\d\d-\d\d\d\d regex.
+
+But regular expressions can be much more sophisticated. For example, adding a 3 in curly brackets ({3}) after a pattern
+is like saying, “Match this pattern three times.” So the slightly shorter regex \d{3}-\d{3}-\d{4} also matches the
+correct phone number format.
+
+**Character Classes**
+
+Shorthand character class                      Represents
+\d                                             Any numeric digit from 0 to 9.
+\D                                             Any character that is not a numeric digit from 0 to 9.
+\w                                             Any letter, numeric digit, or the underscore character.
+                                               (Think of this as matching “word” characters.)
+\W                                             Any character that is not a letter, numeric digit, or the
+                                               underscore character.
+\s                                             Any space, tab, or newline character. (Think of this as
+                                               matching “space” characters.)
+\S                                             Any character that is not a space, tab, or newline.
+
+
+**The Caret and Dollar Sign Characters**
+You can also use the caret symbol (^) at the start of a regex to indicate that a match must occur at the beginning of
+the searched text. Likewise, you can put a dollar sign ($) at the end of the regex to indicate the string must end
+with this regex pattern. And you can use the ^ and $ together to indicate that the entire string must match the
+regex—that is, it’s not enough for a match to be made on some subset of the string.
+
+**Matching Everything with Dot-Star**
+Sometimes you will want to match everything and anything. For example, say you want to match the string 'First Name:',
+followed by any and all text, followed by 'Last Name:', and then followed by anything again. You can use the dot-star
+(.*) to stand in for that “anything.” Remember that the dot character means “any single character except the newline,”
+and the star character means “zero or more of the preceding character.”
+
+**Matching Newlines with the dot character**
+The dot-star will match everything except a newline. By passing re.DOTALL as the second argument to re.compile(), you
+can make the dot character match all characters, including the newline character.
+
+**Case-Insensitive Matching**
+To make your regex case-insensitive,
+you can pass re.IGNORECASE or re.I as a second argument to re.compile().
+
+**Substituting Strings with the sub() Method**
+Regular expressions can not only find text patterns but can also substitute new text in place of those patterns.
+The sub() method for Regex objects is passed two arguments. The first argument is a string to replace any matches.
+The second is the string for the regular expression. The sub() method returns a string with the substitutions applied.
+
+**Managing Complex Regexes**
+Regular expressions are fine if the text pattern you need to match is simple.But matching complicated text patterns
+might require long, convoluted regular expressions. You can mitigate this by telling the re.compile() function to ignore
+whitespace and comments inside the regular expression string. This “verbose mode” can be enabled by passing the variable
+re.VERBOSE as the second argument to re.compile().
+
+**Combining re.IGNORECASE, re.DOTALL , and re.VERBOSE**
+What if you want to use re.VERBOSE to write comments in your regular expression but also want to use re.IGNORECASE to
+ignore capitalization? Unfortunately, the re.compile() function takes only a single value as its second argument. You
+can get around this limitation by combining the re.IGNORECASE, re.DOTALL, and re.VERBOSE variables using the pipe
+character (|), which in this context is known as the bitwise or operator.
