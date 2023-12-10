@@ -1,0 +1,302 @@
+1702176186084	geckodriver	INFO	Listening on 127.0.0.1:50560
+1702177870118	geckodriver	INFO	Listening on 127.0.0.1:50973
+1702177873165	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilekMoj36"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702177873674	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702177873815	Marionette	INFO	Listening on port 50983
+Read port: 50983
+1702177874192	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+1702177887064	Marionette	INFO	Stopped listening on port 50983
+Dynamically enable window occlusion 1
+1702178002172	geckodriver	INFO	Listening on 127.0.0.1:51059
+1702178005195	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilevzw6FN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702178005621	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702178005728	Marionette	INFO	Listening on port 51069
+Read port: 51069
+1702178006079	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702178009756	Marionette	INFO	Stopped listening on port 51069
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1702178019250	geckodriver	INFO	Listening on 127.0.0.1:51090
+1702178022281	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileZTl4rE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702178022713	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702178022813	Marionette	INFO	Listening on port 51100
+Read port: 51100
+1702178023166	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+1702178053290	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1702178680873	Marionette	INFO	Stopped listening on port 51100
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileZoFNI1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702178533547	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702178533667	Marionette	INFO	Listening on port 51246
+Read port: 51246
+1702178534066	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+1702178563602	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://inventwithpython.com/js/jquery-3.2.1.min.js, line 3: Script terminated by timeout at:
+addProp/<.get<@https://inventwithpython.com/js/jquery-3.2.1.min.js:3:11126
+r.fn.extend@https://inventwithpython.com/js/jquery-3.2.1.min.js:2:1697
+simulate@https://inventwithpython.com/js/jquery-3.2.1.min.js:4:5992
+c@https://inventwithpython.com/js/jquery-3.2.1.min.js:4:6743
+
+1702178564635	Marionette	INFO	Stopped listening on port 51246
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  blocklists/addons-bloomfilters Signature failed  TypeError: NetworkError: Network request failed
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:107:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:907:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:812:38
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:573:17
+
+console.warn: services.settings: main/normandy-recipes-capabilities sync interrupted by shutdown
+console.warn: services.settings: main/cookie-banner-rules-list sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/nimbus-desktop-experiments getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+console.error: (new Error("Data is not ready.", "resource://gre/modules/JSONFile.sys.mjs", 178))
+1702179599320	geckodriver	INFO	Listening on 127.0.0.1:51516
+1702179602331	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile0E7Zd6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702179602775	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702179602882	Marionette	INFO	Listening on port 51526
+Read port: 51526
+1702179603203	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+1702179633691	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1702179776942	Marionette	INFO	Stopped listening on port 51526
+Dynamically enable window occlusion 1
+U"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702179611658	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702179611766	Marionette	INFO	Listening on port 51571
+Read port: 51571
+1702179612101	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+1702179641681	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1702179778545	Marionette	INFO	Stopped listening on port 51571
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile6bRoGR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702179773838	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702179773957	Marionette	INFO	Listening on port 51654
+Read port: 51654
+1702179774376	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+1702179805107	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-4627f0f3.js, line 4: Script terminated by timeout at:
+a@https://www.redditstatic.com/shreddit/en-US/shell-4627f0f3.js:4:250575
+firstUpdated/</<@https://www.redditstatic.com/shreddit/en-US/shell-4627f0f3.js:4:250663
+Zf/<@https://www.redditstatic.com/shreddit/en-US/shell-4627f0f3.js:4:242609
+t@https://www.redditstatic.com/shreddit/en-US/shell-4627f0f3.js:4:242479
+
+1702179887211	Marionette	INFO	Stopped listening on port 51654
+Dynamically enable window occlusion 1
+n 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1702179871473	geckodriver	INFO	Listening on 127.0.0.1:51749
+1702179874515	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilefLhoBJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702179874997	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702179875117	Marionette	INFO	Listening on port 51759
+Read port: 51759
+1702179875540	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+1702179886218	Marionette	INFO	Stopped listening on port 51759
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702179883656	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702179883769	Marionette	INFO	Listening on port 51804
+Read port: 51804
+1702179884160	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702179889006	Marionette	INFO	Stopped listening on port 51804
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1702179922388	geckodriver	INFO	Listening on 127.0.0.1:51832
+1702179925434	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileWnQwDd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702179925882	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702179926002	Marionette	INFO	Listening on port 51842
+Read port: 51842
+1702179926355	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+1702179956365	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: https://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+1702180392655	Marionette	INFO	Stopped listening on port 51842
+Dynamically enable window occlusion 1
+1702180564868	geckodriver	INFO	Listening on 127.0.0.1:52051
+1702180567912	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofiledqIu94"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702180568403	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702180568514	Marionette	INFO	Listening on port 52061
+Read port: 52061
+1702180568906	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+1702180575413	Marionette	INFO	Stopped listening on port 52061
+Dynamically enable window occlusion 1
+1702180677831	geckodriver	INFO	Listening on 127.0.0.1:52172
+1702180680873	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileproCpO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702180681415	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702180681528	Marionette	INFO	Listening on port 52182
+Read port: 52182
+1702180681894	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+1702180703289	Marionette	INFO	Stopped listening on port 52182
+Dynamically enable window occlusion 1
+1702180705395	geckodriver	INFO	Listening on 127.0.0.1:52223
+1702180708426	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileQSdKqI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702180708856	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702180708964	Marionette	INFO	Listening on port 52233
+Read port: 52233
+1702180709109	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+1702180739175	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1702180814689	Marionette	INFO	Stopped listening on port 52233
+Dynamically enable window occlusion 1
+1702181337336	geckodriver	INFO	Listening on 127.0.0.1:52391
+1702181340359	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileELw65r"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702181340816	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702181340917	Marionette	INFO	Listening on port 52404
+Read port: 52404
+1702181341284	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1702181355673	Marionette	INFO	Stopped listening on port 52404
+Dynamically enable window occlusion 1
+1702181386950	geckodriver	INFO	Listening on 127.0.0.1:52461
+1702181389991	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileKLFUpK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702181390422	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702181390529	Marionette	INFO	Listening on port 52475
+Read port: 52475
+1702181390868	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1702181421557	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1702181890987	Marionette	INFO	Stopped listening on port 52475
+Dynamically enable window occlusion 1
+U"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702181419923	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702181420035	Marionette	INFO	Listening on port 52535
+Read port: 52535
+1702181420329	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1702181449952	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1702181892122	Marionette	INFO	Stopped listening on port 52535
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile94ME5Z"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702181736721	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702181736832	Marionette	INFO	Listening on port 52657
+Read port: 52657
+1702181737198	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+JavaScript warning: https://inventwithpython.com/js/jquery-3.2.1.min.js, line 2: Script terminated by timeout at:
+r.fn.extend@https://inventwithpython.com/js/jquery-3.2.1.min.js:2:1688
+simulate@https://inventwithpython.com/js/jquery-3.2.1.min.js:4:5992
+c@https://inventwithpython.com/js/jquery-3.2.1.min.js:4:6743
+
+console.error: ({})
+JavaScript error: https://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+1702181767901	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: ({})
+console.error: ({})
+1702181939880	Marionette	INFO	Stopped listening on port 52657
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileCeufeO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702181924060	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702181924161	Marionette	INFO	Listening on port 52745
+Read port: 52745
+1702181924540	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+1702181939501	Marionette	INFO	Stopped listening on port 52745
+Dynamically enable window occlusion 1
+1702181984287	geckodriver	INFO	Listening on 127.0.0.1:52806
+1702181987310	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileRE92gv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702181987799	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702181987928	Marionette	INFO	Listening on port 52816
+Read port: 52816
+1702181988413	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1702182018171	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1702182126781	Marionette	INFO	Stopped listening on port 52816
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileR4PTGs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702182097823	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702182097923	Marionette	INFO	Listening on port 52895
+Read port: 52895
+1702182098263	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1702182126349	Marionette	INFO	Stopped listening on port 52891702182126899	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile7Q5bJa"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702182127445	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702182127556	Marionette	INFO	Listening on port 52957
+Read port: 52957
+1702182127915	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1702182157510	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 3605 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 6731 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-S812YQPLT2, line 509: Script terminated by timeout at:
+get@https://www.googletagmanager.com/gtag/js?id=G-S812YQPLT2:509:115
+stop@https://www.googletagmanager.com/gtag/js?id=G-S812YQPLT2:509:87
+aa.Jk/c/<@https://www.googletagmanager.com/gtag/js?id=G-S812YQPLT2:509:412
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1702182270126	Marionette	INFO	Stopped listening on port 52957
+Dynamically enable window occlusion 1
