@@ -33,3 +33,14 @@ print('lowest row is', lowest_row)
 print('highest row is', highest_row)
 print('lowest col is', lowest_col)
 print('highest col is', highest_col)
+
+# Converting between column letters and Numbers
+from openpyxl.utils import get_column_letter, column_index_from_string
+print(get_column_letter(1))  # Translate column 1 to a letter.
+print(get_column_letter(2))
+print(get_column_letter(27))
+print(get_column_letter(900))
+
+print(get_column_letter(adverting_sheet.max_column))
+print(column_index_from_string('A'))  # Get A's number.
+print(column_index_from_string('AA'))
